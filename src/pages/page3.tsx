@@ -12,7 +12,7 @@ export default function LandingPage() {
       </Head>
       <main>
         <div>
-          <Link href="/">ur mom this is a link</Link>
+          <Link className="underline text-blue-600" href="/">ur mom this is a link</Link>
         </div>
       </main>
     </>
