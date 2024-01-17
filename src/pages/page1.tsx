@@ -12,7 +12,7 @@ export default function LandingPage() {
       </Head>
       <main>
         <div>
-          <p className="text-lg">This is the first page, it was created by Talia.</p>
+          <p className="text-lg" >This is the first page, it was created by Talia.</p>
           <p>You can navigate back to the landing page by clicking <Link href="/" className="underline text-blue-600">here</Link>.</p>
         </div>
       </main>
