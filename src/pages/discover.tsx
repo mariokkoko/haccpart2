@@ -13,10 +13,10 @@ export default function LandingPage() {
       <main>
         <div>
           <div className="navbar bg-green-900">
-            <Link className="btn byn-ghost text-xl" href="page1">Home</Link>
-            <Link className="btn byn-ghost text-xl" href="page2">Upload Photo</Link>
-            <Link className="btn byn-ghost text-xl" href="postclick">Post Click Page</Link>
-            <Link className="btn byn-ghost text-xl" href="forum">Forum</Link>
+            <Link className="btn byn-ghost text-xl" href="/">Home</Link>
+            <Link className="btn byn-ghost text-xl" href="/upload">Upload Photo</Link>
+            <Link className="btn byn-ghost text-xl" href="/postclick">Post Click Page</Link>
+            <Link className="btn byn-ghost text-xl" href="/forum">Forum</Link>
           </div>
           <div className="pt-4">
             <h1 className="text-center text-5xl">Discover Page</h1>
