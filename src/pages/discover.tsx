@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import SiteNavbar from "../components/SiteNavbar";
 
 export default function LandingPage() {
 
@@ -12,12 +13,7 @@ export default function LandingPage() {
       </Head>
       <main>
         <div>
-          <div className="navbar bg-green-900">
-            <Link className="btn byn-ghost text-xl" href="/">Home</Link>
-            <Link className="btn byn-ghost text-xl" href="/upload">Upload Photo</Link>
-            <Link className="btn byn-ghost text-xl" href="/postclick">Post Click Page</Link>
-            <Link className="btn byn-ghost text-xl" href="/forum">Forum</Link>
-          </div>
+          <SiteNavbar/>
           <div className="pt-4">
             <h1 className="text-center text-5xl">Discover Page</h1>
           </div>

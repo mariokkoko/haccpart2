@@ -37,6 +37,6 @@
     "**/*.cjs",
     "**/*.js",
     ".next/types/**/*.ts"
-  ],
+, "src/components/SiteNavbar.tsx", "src/components/SiteNavbar.tsx"  ],
   "exclude": ["node_modules"]
 }
